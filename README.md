@@ -1,6 +1,6 @@
-# SSH Network Device Automation Tool
+# SSH Network Device Automation Tool with Excel config
 
-A comprehensive Python tool for automating SSH connections to network devices, executing commands, and generating organized output reports.
+A comprehensive Python tool for automating SSH connections to network devices, executing commands from excel, and generating organized excel output reports.
 
 ## Overview
 
@@ -11,7 +11,7 @@ This tool consists of two main components:
 ## Features
 
 - **Multi-device SSH automation** with Excel-based configuration
-- **Command execution** from Excel sheet
+- **Command execution from Excel sheet** 
 - **Structured output** with detailed logging
 - **Excel summary generation** for easy comparison
 - **Error handling** with line number tracking
@@ -133,7 +133,9 @@ project/
 4. **"IllegalCharacterError"**
    - Script automatically handles this
    - If persistent, check command outputs
-### BUG
+   - 
+### Current BUG
+
 1. The Excel generated might be wrong if there are repeated command
 
 ### Debug Mode
