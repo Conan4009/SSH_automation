@@ -79,8 +79,8 @@ This script will:
 
 ### Individual Host Files
 - Location: `./Output/`
-- Format: `host1_172.30.102.37_output_YYYY-MM-DD.txt`
-- Content: All command outputs for each host with timestamps
+- Format: `host1_172.30.10.1_output_YYYY-MM-DD.txt`
+- Content: All command outputs for each host, IP with timestamps
 
 ### Excel Summary File
 - Location: `./Output/`
