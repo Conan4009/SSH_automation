@@ -325,7 +325,7 @@ def main():
     hosts_config = load_hosts_from_excel(COMMANDS)
     
     # Create SSH automation instance
-    ssh_automation = SSHAutomation(None,']#')
+    ssh_automation = SSHAutomation()
     #ssh_automation = SSHAutomation(config_path)
     # Process each host
     for host in hosts_config:
