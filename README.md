@@ -38,8 +38,8 @@ pip install -r requirements.txt
 **Sheet1 (Hosts Configuration):**
 | host_name | username | password |
 |-----------|----------|----------|
-| 172.30.102.37 | root | rootpw01 |
-| 172.30.102.38 | admin | admin123 |
+| 172.30.10.1 | root | rootpw01 |
+| 172.30.10.2 | admin | admin123 |
 
 **Sheet2 (Commands):**
 | Commands |
@@ -61,6 +61,8 @@ This script will:
 - Connect to each host via SSH
 - Execute all commands on each device
 - Generate individual output files for each host
+- NOTE: the script reads the '#' symbol as the indicator to start the next command
+- add "--no-exec" argument if command execution and text file output is not needed (e.g. for testing connection)
 
 ### Step 2: Excel Summary Generation
 ```bash
@@ -109,6 +111,7 @@ project/
 - **Consider using SSH keys** for production environments
 - **Restrict file permissions** on configuration files
 - **Use secure networks** for SSH connections
+- **The script reads the '#' symbol as the indicator to start the next command**
 
 ## Troubleshooting
 
@@ -130,6 +133,8 @@ project/
 4. **"IllegalCharacterError"**
    - Script automatically handles this
    - If persistent, check command outputs
+### BUG
+1. The Excel generated might be wrong if there are repeated command
 
 ### Debug Mode
 
