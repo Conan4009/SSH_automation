@@ -61,7 +61,7 @@ This script will:
 - Connect to each host via SSH
 - Execute all commands on each device
 - Generate individual output files for each host in `./Output` directory
-- **NOTE: the script reads the '#' symbol as the indicator to start the next command, please adjust accordto your connnected device**
+- **NOTE: the script reads the '#' symbol as the indicator to start the next command, please adjust according to your connected device**
 - add `--no-exec` argument if command execution and text file output is not needed (e.g. for testing connection)
 
 ### Step 2: Excel Summary Generation
