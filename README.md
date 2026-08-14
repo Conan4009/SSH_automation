@@ -62,7 +62,7 @@ This script will:
 - Execute all commands on each device
 - Generate individual output files for each host
 - NOTE: the script reads the '#' symbol as the indicator to start the next command
-- add "--no-exec" argument if command execution and text file output is not needed (e.g. for testing connection)
+- add `--no-exec` argument if command execution and text file output is not needed (e.g. for testing connection)
 
 ### Step 2: Excel Summary Generation
 ```bash
